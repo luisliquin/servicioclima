@@ -1,3 +1,5 @@
+using NUnit.Framework;
+
 namespace Clima.Business.Test
 {
     public class Tests

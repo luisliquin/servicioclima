@@ -3,21 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clima.API", "Clima.API\Clima.API.csproj", "{083A8FFD-6928-4678-8CBE-EB590B431EF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clima.API", "Clima.API\Clima.API.csproj", "{083A8FFD-6928-4678-8CBE-EB590B431EF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clima.Business", "Clima.Business\Clima.Business.csproj", "{5A794B21-B24A-4ADE-9632-23CC02CEB9E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clima.Business", "Clima.Business\Clima.Business.csproj", "{5A794B21-B24A-4ADE-9632-23CC02CEB9E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clima.DataAccess", "Clima.DataAccess\Clima.DataAccess.csproj", "{F211B33B-EEA6-406A-A664-A428E7ADF6F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clima.DataAccess", "Clima.DataAccess\Clima.DataAccess.csproj", "{F211B33B-EEA6-406A-A664-A428E7ADF6F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clima.DataEntity", "Clima.DataEntity\Clima.DataEntity.csproj", "{4FC3D29E-CFC1-40C1-85C1-CA0EE14DAC38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clima.DataEntity", "Clima.DataEntity\Clima.DataEntity.csproj", "{4FC3D29E-CFC1-40C1-85C1-CA0EE14DAC38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clima.Business.Test", "Clima.Business.Test\Clima.Business.Test.csproj", "{206B7F8F-5C70-4A13-9F0F-3430B6B57E6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clima.Business.Test", "Clima.Business.Test\Clima.Business.Test.csproj", "{206B7F8F-5C70-4A13-9F0F-3430B6B57E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clima.Common", "Clima.Common\Clima.Common.csproj", "{1D2DC205-70A0-4DF9-AC55-A0695197A59F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clima.Common", "Clima.Common\Clima.Common.csproj", "{1D2DC205-70A0-4DF9-AC55-A0695197A59F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clima.DTO", "Clima.DTO\Clima.DTO.csproj", "{DE395EEF-041E-4647-BBB0-D49EC0601D46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clima.DTO", "Clima.DTO\Clima.DTO.csproj", "{DE395EEF-041E-4647-BBB0-D49EC0601D46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clima.Repository", "Clima.Repository\Clima.Repository.csproj", "{36545732-CF4C-45E6-A514-AF712078EB43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clima.Repository", "Clima.Repository\Clima.Repository.csproj", "{36545732-CF4C-45E6-A514-AF712078EB43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{74CF8635-4C0E-4C9C-A4AD-E8BB5445A428}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{35142212-C3F5-467A-BC3D-376EBBB4F14A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{9370327F-2AE0-4F8B-A59F-7AC7BC1C32D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +66,16 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{083A8FFD-6928-4678-8CBE-EB590B431EF1} = {74CF8635-4C0E-4C9C-A4AD-E8BB5445A428}
+		{5A794B21-B24A-4ADE-9632-23CC02CEB9E3} = {35142212-C3F5-467A-BC3D-376EBBB4F14A}
+		{F211B33B-EEA6-406A-A664-A428E7ADF6F8} = {35142212-C3F5-467A-BC3D-376EBBB4F14A}
+		{4FC3D29E-CFC1-40C1-85C1-CA0EE14DAC38} = {35142212-C3F5-467A-BC3D-376EBBB4F14A}
+		{206B7F8F-5C70-4A13-9F0F-3430B6B57E6F} = {9370327F-2AE0-4F8B-A59F-7AC7BC1C32D6}
+		{1D2DC205-70A0-4DF9-AC55-A0695197A59F} = {35142212-C3F5-467A-BC3D-376EBBB4F14A}
+		{DE395EEF-041E-4647-BBB0-D49EC0601D46} = {35142212-C3F5-467A-BC3D-376EBBB4F14A}
+		{36545732-CF4C-45E6-A514-AF712078EB43} = {35142212-C3F5-467A-BC3D-376EBBB4F14A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18CF4E52-F85E-4587-A4AF-F89DD0268113}

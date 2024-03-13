@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Clima.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08c5c31487a667ca4f662ca8c96c69c870969516")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4bb6593e0cd6595bd809f89ebf0df9ece0147f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Clima.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Clima.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

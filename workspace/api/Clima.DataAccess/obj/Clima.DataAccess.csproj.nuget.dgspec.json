@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\2024RepoGit\\ServicioDeClima\\src\\api\\Clima\\Clima.DataAccess\\Clima.DataAccess.csproj": {}
+    "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.DataAccess\\Clima.DataAccess.csproj": {}
   },
   "projects": {
-    "E:\\2024RepoGit\\ServicioDeClima\\src\\api\\Clima\\Clima.DataAccess\\Clima.DataAccess.csproj": {
+    "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.Common\\Clima.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\2024RepoGit\\ServicioDeClima\\src\\api\\Clima\\Clima.DataAccess\\Clima.DataAccess.csproj",
-        "projectName": "Clima.DataAccess",
-        "projectPath": "E:\\2024RepoGit\\ServicioDeClima\\src\\api\\Clima\\Clima.DataAccess\\Clima.DataAccess.csproj",
+        "projectUniqueName": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.Common\\Clima.Common.csproj",
+        "projectName": "Clima.Common",
+        "projectPath": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.Common\\Clima.Common.csproj",
         "packagesPath": "C:\\Users\\Luis Liquin\\.nuget\\packages\\",
-        "outputPath": "E:\\2024RepoGit\\ServicioDeClima\\src\\api\\Clima\\Clima.DataAccess\\obj\\",
+        "outputPath": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,11 +39,46 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +95,174 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.DataAccess\\Clima.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.DataAccess\\Clima.DataAccess.csproj",
+        "projectName": "Clima.DataAccess",
+        "projectPath": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.DataAccess\\Clima.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Luis Liquin\\.nuget\\packages\\",
+        "outputPath": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Luis Liquin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.Common\\Clima.Common.csproj": {
+                "projectPath": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.Common\\Clima.Common.csproj"
+              },
+              "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.DataEntity\\Clima.DataEntity.csproj": {
+                "projectPath": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.DataEntity\\Clima.DataEntity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.DataEntity\\Clima.DataEntity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.DataEntity\\Clima.DataEntity.csproj",
+        "projectName": "Clima.DataEntity",
+        "projectPath": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.DataEntity\\Clima.DataEntity.csproj",
+        "packagesPath": "C:\\Users\\Luis Liquin\\.nuget\\packages\\",
+        "outputPath": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.DataEntity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Luis Liquin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.Common\\Clima.Common.csproj": {
+                "projectPath": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.Common\\Clima.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Clima.Repository
-build_property.ProjectDir = E:\2024RepoGit\ServicioDeClima\src\api\Clima.Repository\
+build_property.ProjectDir = E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Repository\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

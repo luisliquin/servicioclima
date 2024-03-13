@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R/Kblw6PgR8/RM8/R/sBxb1lXOVlFuMdObn82uWd8kSxJ74JNunJGrMScYjlzYMkEt+IbWa379nVYJJXiXpXZw==",
+  "dgSpecHash": "k3UN2sG/xOQyINudjmTJqKD54uhaGiA2GZ2Y/67p6E95tlimgZKjwckpRDgwnWzYl976wmiaUXCbhJYpxCDsGA==",
   "success": true,
-  "projectFilePath": "E:\\2024RepoGit\\ServicioDeClima\\src\\api\\Clima\\Clima.Business.Test\\Clima.Business.Test.csproj",
+  "projectFilePath": "E:\\2024RepoGit\\ServicioDeClima\\workspace\\api\\Clima.Business.Test\\Clima.Business.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luis Liquin\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Luis Liquin\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

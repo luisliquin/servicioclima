@@ -1,0 +1,12 @@
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.DTO\bin\Debug\net6.0\Clima.DTO.deps.json
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.DTO\bin\Debug\net6.0\Clima.DTO.dll
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.DTO\bin\Debug\net6.0\Clima.DTO.pdb
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.DTO\obj\Debug\net6.0\Clima.DTO.GeneratedMSBuildEditorConfig.editorconfig
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.DTO\obj\Debug\net6.0\Clima.DTO.AssemblyInfoInputs.cache
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.DTO\obj\Debug\net6.0\Clima.DTO.AssemblyInfo.cs
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.DTO\obj\Debug\net6.0\Clima.DTO.csproj.CoreCompileInputs.cache
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.DTO\obj\Debug\net6.0\Clima.DTO.sourcelink.json
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.DTO\obj\Debug\net6.0\Clima.DTO.dll
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.DTO\obj\Debug\net6.0\refint\Clima.DTO.dll
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.DTO\obj\Debug\net6.0\Clima.DTO.pdb
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.DTO\obj\Debug\net6.0\ref\Clima.DTO.dll

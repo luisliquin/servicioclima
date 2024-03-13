@@ -1,0 +1,12 @@
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Business\bin\Debug\net6.0\Clima.Business.deps.json
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Business\bin\Debug\net6.0\Clima.Business.dll
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Business\bin\Debug\net6.0\Clima.Business.pdb
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Business\obj\Debug\net6.0\Clima.Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Business\obj\Debug\net6.0\Clima.Business.AssemblyInfoInputs.cache
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Business\obj\Debug\net6.0\Clima.Business.AssemblyInfo.cs
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Business\obj\Debug\net6.0\Clima.Business.csproj.CoreCompileInputs.cache
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Business\obj\Debug\net6.0\Clima.Business.sourcelink.json
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Business\obj\Debug\net6.0\Clima.Business.dll
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Business\obj\Debug\net6.0\refint\Clima.Business.dll
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Business\obj\Debug\net6.0\Clima.Business.pdb
+E:\2024RepoGit\ServicioDeClima\workspace\api\Clima.Business\obj\Debug\net6.0\ref\Clima.Business.dll
